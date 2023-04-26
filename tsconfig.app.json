@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "../.cache/typescript/",
+    "rootDir": ".",
+    "baseUrl": "./app/",
+    "paths": {
+      "helpers/*": ["./helpers/*"]
+    }
+  },
+  "include": ["./app/**/*"]
+}

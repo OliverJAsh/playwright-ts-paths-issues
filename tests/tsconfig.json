@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "../.cache/typescript/",
+    "rootDir": ".."
+  },
+  "include": ["**/*"],
+  "references": [
+    {
+      "path": "../tsconfig.app.json"
+    }
+  ]
+}
